@@ -19,7 +19,7 @@
         ]
       };
     }
-    hello() {
+    mom() {
       return 'World!';
     }
   }
