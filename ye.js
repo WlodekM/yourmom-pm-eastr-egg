@@ -10,6 +10,8 @@
       return {
         id: 'your',
         name: 'Your mom',
+        color1: '#f57542',
+        color2: '#f55d42',
         blocks: [
           {
             opcode: 'mom',
