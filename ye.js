@@ -9,18 +9,18 @@
     getInfo() {
       return {
         id: 'your',
-        name: 'Unsandboxed Hello World',
+        name: 'Your mom',
         blocks: [
           {
             opcode: 'mom',
             blockType: Scratch.BlockType.REPORTER,
-            text: 'your mmom!'
+            text: 'Your mother.'
           }
         ]
       };
     }
     mom() {
-      return 'World!';
+      return 'Click the block or run it to activate the easter egg!';
     }
   }
   Scratch.extensions.register(new your());
